@@ -4,13 +4,13 @@
     "physics": {
       "gravity": [
         0,
-        0,
+        -9.8,
         0
       ]
     },
     "render": {
-      "fog_end": 1000,
-      "fog_start": 700,
+      "fog_end": 0,
+      "fog_start": 0,
       "global_ambient": [
         0.6901960784313725,
         0.5450980392156862,
