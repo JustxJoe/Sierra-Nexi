@@ -12,9 +12,9 @@
       "fog_end": 0,
       "fog_start": 0,
       "global_ambient": [
-        0.7372549019607844,
-        0.6,
-        0.8117647058823529
+        0.6901960784313725,
+        0.5450980392156862,
+        0.7725490196078432
       ],
       "fog_color": [
         0,
@@ -25,7 +25,7 @@
       "fog_density": 0,
       "gamma_correction": 1,
       "tonemapping": 1,
-      "exposure": 4.8,
+      "exposure": 6,
       "skybox": 29307645,
       "skyboxIntensity": 3,
       "skyboxMip": 0,
