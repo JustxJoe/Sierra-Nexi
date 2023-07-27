@@ -18,10 +18,10 @@
       ],
       "fog_color": [
         1,
-        0.7372549019607844,
+        0.,
         0.47058823529411764
       ],
-      "fog": "exp",
+      "fog": "none",
       "fog_density": 0.0001,
       "gamma_correction": 1,
       "tonemapping": 1,
