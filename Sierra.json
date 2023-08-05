@@ -12,9 +12,9 @@
       "fog_end": 1000,
       "fog_start": 700,
       "global_ambient": [
-        0.6901960784313725,
-        0.5450980392156862,
-        0.7725490196078432
+        0.43137254902,
+        0.38039215686,
+        0.52549019607
       ],
       "fog_color": [
         1,
@@ -25,9 +25,9 @@
       "fog_density": 0.0001,
       "gamma_correction": 1,
       "tonemapping": 1,
-      "exposure": 6,
+      "exposure": 4,
       "skybox": 29307645,
-      "skyboxIntensity": 6,
+      "skyboxIntensity": 4,
       "skyboxMip": 0,
       "lightmapSizeMultiplier": 16,
       "lightmapMaxResolution": 1080,
