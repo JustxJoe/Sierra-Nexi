@@ -89,7 +89,7 @@
             1
           ],
           "outerConeAngle": 45,
-          "castShadows": false,
+          "castShadows": true,
           "intensity": 1.5,
           "bakeDir": true,
           "cookieAngle": 0,
