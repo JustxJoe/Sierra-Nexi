@@ -90,7 +90,7 @@
           ],
           "outerConeAngle": 45,
           "castShadows": false,
-          "intensity": 0,
+          "intensity": 6,
           "bakeDir": true,
           "cookieAngle": 0,
           "cookieChannel": "rgb",
