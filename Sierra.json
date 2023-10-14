@@ -596,7 +596,8 @@
         "28aa66ed-3cf4-449b-9a86-20226328617b",
         "4571c188-40a6-4a81-a7a5-d6604c943ff2",
         "cdd34dcd-42b8-403b-811d-8a7d6ab8842b",
-        "d56f0710-e1ad-492f-a030-5eccdc66a2e7"
+        "d56f0710-e1ad-492f-a030-5eccdc66a2e7",
+        "f0f505d5-95cb-4ee0-985e-1f71d11d807b"
       ],
       "position": [
         0,
@@ -33288,6 +33289,158 @@
               "spriteAsset": 37458156
             }
           }
+        }
+      }
+    },
+    "f0f505d5-95cb-4ee0-985e-1f71d11d807b": {
+      "name": "Flag",
+      "tags": [],
+      "enabled": true,
+      "resource_id": "f0f505d5-95cb-4ee0-985e-1f71d11d807b",
+      "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
+      "children": [
+        "4dca8c8f-8a01-4c45-950a-21cff5a6ac84",
+        "e778e173-841a-4f48-9ee1-277733d4aa45"
+      ],
+      "position": [
+        24.430211379565726,
+        31.469223810752172,
+        -119.38030902747678
+      ],
+      "rotation": [
+        86.18162905518818,
+        -42.39870943511686,
+        0.7432150766912088
+      ],
+      "scale": [
+        1.6078779506281649,
+        1.6078779506281649,
+        1.6078779506281649
+      ],
+      "components": {}
+    },
+    "4dca8c8f-8a01-4c45-950a-21cff5a6ac84": {
+      "name": "Flag-Animated",
+      "tags": [],
+      "enabled": true,
+      "resource_id": "4dca8c8f-8a01-4c45-950a-21cff5a6ac84",
+      "parent": "f0f505d5-95cb-4ee0-985e-1f71d11d807b",
+      "children": [],
+      "position": [
+        -2.4614048938692817e-16,
+        7.322484215761821e-16,
+        -3.2977537185531274
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "components": {
+        "model": {
+          "enabled": true,
+          "type": "asset",
+          "asset": 34753212,
+          "materialAsset": null,
+          "castShadows": true,
+          "castShadowsLightmap": true,
+          "receiveShadows": true,
+          "lightmapped": false,
+          "lightmapSizeMultiplier": 1,
+          "castShadowsLightMap": true,
+          "lightMapped": false,
+          "lightMapSizeMultiplier": 1,
+          "isStatic": false,
+          "layers": [
+            0
+          ],
+          "batchGroupId": null
+        },
+        "script": {
+          "enabled": true,
+          "order": [
+            "flagShader"
+          ],
+          "scripts": {
+            "flagShader": {
+              "enabled": true,
+              "attributes": {
+                "texture": 34753209
+              }
+            }
+          }
+        },
+        "sound": {
+          "enabled": true,
+          "volume": 1,
+          "pitch": 1,
+          "positional": true,
+          "refDistance": 8,
+          "maxDistance": 10000,
+          "rollOffFactor": 1,
+          "distanceModel": "exponential",
+          "slots": {
+            "1": {
+              "name": "Flap",
+              "loop": true,
+              "autoPlay": true,
+              "overlap": false,
+              "asset": 34753429,
+              "startTime": 0,
+              "duration": null,
+              "volume": 0.82,
+              "pitch": 0.9
+            }
+          }
+        }
+      }
+    },
+    "e778e173-841a-4f48-9ee1-277733d4aa45": {
+      "name": "Flag-Pole",
+      "tags": [],
+      "enabled": true,
+      "resource_id": "e778e173-841a-4f48-9ee1-277733d4aa45",
+      "parent": "f0f505d5-95cb-4ee0-985e-1f71d11d807b",
+      "children": [],
+      "position": [
+        1.3025735359837465e-16,
+        -1.4475288391113286,
+        1.7451700710332352
+      ],
+      "rotation": [
+        -76.67419175751759,
+        3.669462664781194e-15,
+        4.233188314154695e-15
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "components": {
+        "model": {
+          "enabled": true,
+          "type": "asset",
+          "asset": 34753184,
+          "materialAsset": null,
+          "castShadows": true,
+          "castShadowsLightmap": true,
+          "receiveShadows": true,
+          "lightmapped": false,
+          "lightmapSizeMultiplier": 1,
+          "castShadowsLightMap": true,
+          "lightMapped": false,
+          "lightMapSizeMultiplier": 1,
+          "isStatic": false,
+          "layers": [
+            0
+          ],
+          "batchGroupId": null
         }
       }
     },
