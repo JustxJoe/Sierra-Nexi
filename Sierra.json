@@ -30277,7 +30277,7 @@
     "054d2c30-4353-4818-b99d-27546705b527": {
       "name": "Cards",
       "tags": [],
-      "enabled": true,
+      "enabled": false,
       "resource_id": "054d2c30-4353-4818-b99d-27546705b527",
       "parent": "a84eb64b-ae5c-49f9-bb7c-a0746aae0286",
       "children": [
@@ -33231,9 +33231,9 @@
         0
       ],
       "scale": [
-        1.7,
-        1.5,
-        1.7
+        2,
+        1.8,
+        2
       ],
       "components": {
         "model": {
