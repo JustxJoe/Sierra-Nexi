@@ -13997,7 +13997,7 @@
               "!": "Fire",
               "P": false,
               "S": false,
-              "U": false,
+              "U": true,
               "O": 50532712,
               "V": 0,
               "T": null,
