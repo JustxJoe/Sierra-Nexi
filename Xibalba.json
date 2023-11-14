@@ -27,7 +27,7 @@
       "tonemapping": 1,
       "exposure": 3,
       "skybox": 31129095,
-      "skyboxIntensity": 0.2,
+      "skyboxIntensity": 3,
       "skyboxMip": 0,
       "lightmapSizeMultiplier": 16,
       "lightmapMaxResolution": 2048,
