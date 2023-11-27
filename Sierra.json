@@ -106,7 +106,7 @@
           "type": "directional",
           "cookieFalloff": true,
           "isStatic": false,
-          "shadowUpdateMode": 0,
+          "shadowUpdateMode": 1,
           "cookieScale": [
             1,
             1
@@ -122,7 +122,7 @@
           "shadowResolution": 512,
           "enabled": true,
           "range": 8,
-          "shadowDistance": 400,
+          "shadowDistance": 250,
           "shadowType": 0
         }
       },
