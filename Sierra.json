@@ -30,7 +30,7 @@
       "skyboxIntensity": 6,
       "skyboxMip": 0,
       "lightmapSizeMultiplier": 16,
-      "lightmapMaxResolution": 2048,
+      "lightmapMaxResolution": 1080,
       "lightmapMode": 1
     }
   },
