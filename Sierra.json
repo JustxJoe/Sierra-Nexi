@@ -89,8 +89,8 @@
             0.7019607843137254
           ],
           "outerConeAngle": 45,
-          "castShadows": true,
-          "intensity": 6,
+          "castShadows": false,
+          "intensity": 0,
           "bakeDir": true,
           "cookieAngle": 0,
           "cookieChannel": "rgb",
@@ -107,7 +107,7 @@
           "type": "directional",
           "cookieFalloff": true,
           "isStatic": false,
-          "shadowUpdateMode": 2,
+          "shadowUpdateMode": 1,
           "cookieScale": [
             1,
             1
@@ -123,7 +123,7 @@
           "shadowResolution": 1024,
           "enabled": true,
           "range": 8,
-          "shadowDistance": 250,
+          "shadowDistance": 200,
           "shadowType": 0
         }
       },
