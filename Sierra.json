@@ -31,7 +31,10 @@
       "skyboxMip": 0,
       "lightmapSizeMultiplier": 16,
       "lightmapMaxResolution": 1080,
-      "lightmapMode": 1
+      "lightmapMode": 1,
+      "skyboxRotation":[0,
+        180,
+        0]
     }
   },
   "entities": {
