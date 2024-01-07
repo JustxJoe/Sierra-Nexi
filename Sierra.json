@@ -1,5 +1,5 @@
 {
-  "name": "Sierra.Snow",
+  "name": "Sierra",
   "settings": {
     "physics": {
       "gravity": [
@@ -12,22 +12,22 @@
       "fog_end": 1000,
       "fog_start": 700,
       "global_ambient": [
-        0.6666666666666666,
-        0.6666666666666666,
-        0.6666666666666666
+        0.5,
+        0.5,
+        0.5
       ],
       "fog_color": [
-        1,
-        0.7372549019607844,
-        0.47058823529411764
+        0,
+        0,
+        0
       ],
       "fog": "exp",
       "fog_density": 0.0001,
       "gamma_correction": 1,
       "tonemapping": 1,
       "exposure": 4,
-      "skybox": 34741925,
-      "skyboxIntensity": 0.5,
+      "skybox": 29307645,
+      "skyboxIntensity": 0.05,
       "skyboxMip": 0,
       "lightmapSizeMultiplier": 16,
       "lightmapMaxResolution": 1080,
@@ -84,9 +84,9 @@
           "vsmBlurSize": 11,
           "normalOffsetBias": 0.05,
           "color": [
-            0.8,
-            0.8,
-            0.8
+            0,
+            0,
+            0
           ],
           "outerConeAngle": 45,
           "castShadows": false,
@@ -155,10 +155,7 @@
         "19fcf8e4-3829-4cb8-a69e-145cc0a9eaad",
         "07cf7750-86ee-4886-a513-6f064142f725",
         "7ebea48a-0275-4c9d-8807-98d8728ee864",
-        "054d2c30-4353-4818-b99d-27546705b527",
-        "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-        "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-        "0070934a-e377-410c-a58a-49f31a144208"
+        "054d2c30-4353-4818-b99d-27546705b527"
       ],
       "position": [
         0,
@@ -298,20 +295,20 @@
               "enabled": true,
               "attributes": {
                 "map": 30866540,
-                "red": 34742033,
-                "green": 35934111,
-                "blue": 34742002,
+                "red": 30867252,
+                "green": 30479676,
+                "blue": 30867280,
                 "redScale": [
-                  10,
-                  10
+                  60,
+                  60
                 ],
                 "greenScale": [
                   60,
                   60
                 ],
                 "blueScale": [
-                  20,
-                  20
+                  35,
+                  35
                 ]
               }
             }
@@ -324,7 +321,7 @@
         0
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -352,7 +349,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -400,7 +397,7 @@
         90.00000032354309
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -1587,10 +1584,7 @@
       "enabled": true,
       "resource_id": "a88481a9-cd7e-481a-b270-ea665125f8f8",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "c7da090f-f6e6-4423-b9ae-1f53a403f8f6",
-        "f8c51e35-0a23-43ac-883d-c3abf9f5a448"
-      ],
+      "children": [],
       "position": [
         30.06229732215678,
         15.849803924560547,
@@ -2895,10 +2889,7 @@
       "enabled": true,
       "resource_id": "268f55b0-5cb9-49b9-9156-f0c2ecf682c6",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "527f44e7-e9ea-4f58-9175-236f30e1f08f",
-        "033caad0-8808-408c-81ec-85d3a471e447"
-      ],
+      "children": [],
       "position": [
         -2.361218667739619,
         7.925600528717041,
@@ -8627,7 +8618,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -8675,7 +8666,7 @@
         90.00000032354309
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -9233,7 +9224,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -9281,7 +9272,7 @@
         0
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -9627,10 +9618,7 @@
       "enabled": true,
       "resource_id": "f87f0b32-c57a-4be7-925c-708d013b9fe6",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "fc4cdc77-93c5-48ad-b231-7ec3b72a4a44",
-        "dc04d10e-43c2-4d64-bcaa-d6426b76aea6"
-      ],
+      "children": [],
       "position": [
         -44.40489979660233,
         8.257940417259002,
@@ -9674,10 +9662,7 @@
       "enabled": true,
       "resource_id": "37640945-7ca5-4bec-8650-cf6dad28115a",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "b779b694-ab64-4b66-afbd-4f723fb8f5f1",
-        "48e1c580-4814-4b83-92eb-0e33ce7757b5"
-      ],
+      "children": [],
       "position": [
         -14.292468070983887,
         3.5901182608007005,
@@ -9721,10 +9706,7 @@
       "enabled": true,
       "resource_id": "a255bdfe-ae6b-4dcc-8b6d-83cebc59217e",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "903c8409-9251-44a2-91f9-a16610751a8b",
-        "f03c21dc-bc9d-42c6-9c0e-098fe4ecdca9"
-      ],
+      "children": [],
       "position": [
         -24.340909357068355,
         18.89250499112574,
@@ -17647,10 +17629,7 @@
       "enabled": true,
       "resource_id": "193956ac-0995-4e88-9680-77839ef61bcd",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "10a956ec-fc18-4547-947d-3becc570194b",
-        "33c9ec07-d85e-4bf9-9f3b-a14cdcbc340c"
-      ],
+      "children": [],
       "position": [
         77.84832763671875,
         8.257940292358398,
@@ -20072,7 +20051,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -20119,9 +20098,7 @@
         -74.99999870487031,
         90.00000032354309
       ],
-      "tags": [
-        "Snow"
-      ],
+      "tags": [],
       "enabled": true,
       "children": []
     },
@@ -20148,7 +20125,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -20195,9 +20172,7 @@
         -74.99999870487031,
         90.00000032354309
       ],
-      "tags": [
-        "Snow"
-      ],
+      "tags": [],
       "enabled": true,
       "children": []
     },
@@ -21178,7 +21153,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -21226,7 +21201,7 @@
         0
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -21254,7 +21229,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -21302,7 +21277,7 @@
         0
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -23070,10 +23045,7 @@
       "enabled": true,
       "resource_id": "5aee3488-71d5-4a35-867d-159e42819723",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "30ae0bd3-a899-479d-8b63-bff7b16a9ea2",
-        "d126988b-9bc1-4193-8d98-d228ca42f90e"
-      ],
+      "children": [],
       "position": [
         -4.776118824722088,
         17.19612208882611,
@@ -23161,10 +23133,7 @@
       "enabled": true,
       "resource_id": "3a195ed7-71c7-4b20-9d86-9c83c010b7ca",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "68a76d48-5242-480c-af3b-473cde337f81",
-        "9f5fe72d-4ae7-4d34-9bb0-0dbe9e9fc746"
-      ],
+      "children": [],
       "position": [
         -40.150976135829126,
         8.935033628837177,
@@ -23208,10 +23177,7 @@
       "enabled": true,
       "resource_id": "5248ae10-aad9-488e-ae97-58e33ad161ad",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "c2d479af-f7fb-4570-93bc-7ce4ad86c225",
-        "43bf6819-3a89-4acc-8d1c-affd60b2fd86"
-      ],
+      "children": [],
       "position": [
         -67.10787656595387,
         8.935033628837177,
@@ -24133,7 +24099,7 @@
           "castShadows": true,
           "castShadowsLightmap": false,
           "lightmapped": false,
-          "materialAsset": 40062380,
+          "materialAsset": 29542740,
           "receiveShadows": true,
           "enabled": true,
           "castShadowsLightMap": false,
@@ -24181,7 +24147,7 @@
         0
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -24260,20 +24226,20 @@
               "enabled": true,
               "attributes": {
                 "map": 31300290,
-                "red": 34742033,
-                "green": 35934111,
-                "blue": 34742002,
+                "red": 30867252,
+                "green": 30479676,
+                "blue": 30867280,
                 "redScale": [
-                  10,
-                  10
+                  30,
+                  30
                 ],
                 "greenScale": [
-                  60,
-                  60
+                  30,
+                  30
                 ],
                 "blueScale": [
-                  20,
-                  20
+                  15,
+                  15
                 ]
               }
             }
@@ -24286,7 +24252,7 @@
         0
       ],
       "tags": [
-        "Snow"
+        "Dirt"
       ],
       "enabled": true,
       "children": []
@@ -26900,10 +26866,7 @@
       "enabled": true,
       "resource_id": "60a32e32-5d88-4453-8e66-b085912c47cb",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "a72508c6-7800-4f48-b3d5-cf86a92f454d",
-        "629343ca-9b80-4774-9ff2-8c52655fcf0e"
-      ],
+      "children": [],
       "position": [
         -60.13998170355369,
         13.24172569891869,
@@ -27849,10 +27812,7 @@
       "enabled": true,
       "resource_id": "468a48f8-9ce1-4813-b919-b2b7bddae9cc",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "6e34636a-28f2-4790-800b-b7619b9af72f",
-        "0a991d83-f0b0-4c63-b49c-c68ab1c64195"
-      ],
+      "children": [],
       "position": [
         27.598803670992197,
         16.5184268951416,
@@ -27954,7 +27914,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -27998,7 +27958,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28042,7 +28002,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28086,7 +28046,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28130,7 +28090,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28174,7 +28134,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28218,7 +28178,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28262,7 +28222,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28306,7 +28266,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -28350,7 +28310,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -29036,10 +28996,7 @@
       "enabled": true,
       "resource_id": "355f02b8-9584-4203-90bd-32e8f4c5bba3",
       "parent": "914189ba-f675-4bd2-a36a-c33de6cf47ee",
-      "children": [
-        "acdfcb93-0382-47ac-81f7-523b63e77c3a",
-        "76507785-2908-4a4f-84cd-9a7ee3d3ad09"
-      ],
+      "children": [],
       "position": [
         -85.8313980102539,
         3.7009325910932667,
@@ -29103,7 +29060,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -29147,7 +29104,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -29655,7 +29612,7 @@
         "model": {
           "enabled": true,
           "type": "asset",
-          "asset": 40062402,
+          "asset": 31441653,
           "materialAsset": null,
           "castShadows": true,
           "castShadowsLightmap": false,
@@ -31095,9 +31052,9 @@
       "parent": "24f386f4-26c1-4f50-8f1e-ad85d1a9dad3",
       "children": [],
       "position": [
-        7.593659400939941,
-        10.824793815612793,
-        2.9919975858114833
+        12.24605655670166,
+        4.133633613586426,
+        3.3260147394753483
       ],
       "rotation": [
         0,
@@ -31174,9 +31131,9 @@
       "parent": "24f386f4-26c1-4f50-8f1e-ad85d1a9dad3",
       "children": [],
       "position": [
-        8.775935173034668,
-        10.824793815612793,
-        4.452065096416342
+        13.42833234086308,
+        4.133633613586426,
+        4.7860822677612305
       ],
       "rotation": [
         0,
@@ -31230,9 +31187,9 @@
       "parent": "24f386f4-26c1-4f50-8f1e-ad85d1a9dad3",
       "children": [],
       "position": [
-        6.877449035644531,
-        10.824793815612793,
-        4.942597494640219
+        11.52984619140625,
+        4.133633613586426,
+        5.276614697734532
       ],
       "rotation": [
         0,
@@ -31567,2111 +31524,6 @@
               "spriteAsset": 34049340
             }
           }
-        }
-      }
-    },
-    "fc4cdc77-93c5-48ad-b231-7ec3b72a4a44": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "fc4cdc77-93c5-48ad-b231-7ec3b72a4a44",
-      "parent": "f87f0b32-c57a-4be7-925c-708d013b9fe6",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "dc04d10e-43c2-4d64-bcaa-d6426b76aea6": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "dc04d10e-43c2-4d64-bcaa-d6426b76aea6",
-      "parent": "f87f0b32-c57a-4be7-925c-708d013b9fe6",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "a72508c6-7800-4f48-b3d5-cf86a92f454d": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "a72508c6-7800-4f48-b3d5-cf86a92f454d",
-      "parent": "60a32e32-5d88-4453-8e66-b085912c47cb",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "629343ca-9b80-4774-9ff2-8c52655fcf0e": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "629343ca-9b80-4774-9ff2-8c52655fcf0e",
-      "parent": "60a32e32-5d88-4453-8e66-b085912c47cb",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "6e34636a-28f2-4790-800b-b7619b9af72f": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "6e34636a-28f2-4790-800b-b7619b9af72f",
-      "parent": "468a48f8-9ce1-4813-b919-b2b7bddae9cc",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "0a991d83-f0b0-4c63-b49c-c68ab1c64195": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "0a991d83-f0b0-4c63-b49c-c68ab1c64195",
-      "parent": "468a48f8-9ce1-4813-b919-b2b7bddae9cc",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "68a76d48-5242-480c-af3b-473cde337f81": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "68a76d48-5242-480c-af3b-473cde337f81",
-      "parent": "3a195ed7-71c7-4b20-9d86-9c83c010b7ca",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "9f5fe72d-4ae7-4d34-9bb0-0dbe9e9fc746": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "9f5fe72d-4ae7-4d34-9bb0-0dbe9e9fc746",
-      "parent": "3a195ed7-71c7-4b20-9d86-9c83c010b7ca",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "c2d479af-f7fb-4570-93bc-7ce4ad86c225": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "c2d479af-f7fb-4570-93bc-7ce4ad86c225",
-      "parent": "5248ae10-aad9-488e-ae97-58e33ad161ad",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "43bf6819-3a89-4acc-8d1c-affd60b2fd86": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "43bf6819-3a89-4acc-8d1c-affd60b2fd86",
-      "parent": "5248ae10-aad9-488e-ae97-58e33ad161ad",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "acdfcb93-0382-47ac-81f7-523b63e77c3a": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "acdfcb93-0382-47ac-81f7-523b63e77c3a",
-      "parent": "355f02b8-9584-4203-90bd-32e8f4c5bba3",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "76507785-2908-4a4f-84cd-9a7ee3d3ad09": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "76507785-2908-4a4f-84cd-9a7ee3d3ad09",
-      "parent": "355f02b8-9584-4203-90bd-32e8f4c5bba3",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "b779b694-ab64-4b66-afbd-4f723fb8f5f1": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "b779b694-ab64-4b66-afbd-4f723fb8f5f1",
-      "parent": "37640945-7ca5-4bec-8650-cf6dad28115a",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "48e1c580-4814-4b83-92eb-0e33ce7757b5": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "48e1c580-4814-4b83-92eb-0e33ce7757b5",
-      "parent": "37640945-7ca5-4bec-8650-cf6dad28115a",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "c7da090f-f6e6-4423-b9ae-1f53a403f8f6": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "c7da090f-f6e6-4423-b9ae-1f53a403f8f6",
-      "parent": "a88481a9-cd7e-481a-b270-ea665125f8f8",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "f8c51e35-0a23-43ac-883d-c3abf9f5a448": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "f8c51e35-0a23-43ac-883d-c3abf9f5a448",
-      "parent": "a88481a9-cd7e-481a-b270-ea665125f8f8",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "527f44e7-e9ea-4f58-9175-236f30e1f08f": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "527f44e7-e9ea-4f58-9175-236f30e1f08f",
-      "parent": "268f55b0-5cb9-49b9-9156-f0c2ecf682c6",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "033caad0-8808-408c-81ec-85d3a471e447": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "033caad0-8808-408c-81ec-85d3a471e447",
-      "parent": "268f55b0-5cb9-49b9-9156-f0c2ecf682c6",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "903c8409-9251-44a2-91f9-a16610751a8b": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "903c8409-9251-44a2-91f9-a16610751a8b",
-      "parent": "a255bdfe-ae6b-4dcc-8b6d-83cebc59217e",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "f03c21dc-bc9d-42c6-9c0e-098fe4ecdca9": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "f03c21dc-bc9d-42c6-9c0e-098fe4ecdca9",
-      "parent": "a255bdfe-ae6b-4dcc-8b6d-83cebc59217e",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "10a956ec-fc18-4547-947d-3becc570194b": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "10a956ec-fc18-4547-947d-3becc570194b",
-      "parent": "193956ac-0995-4e88-9680-77839ef61bcd",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "33c9ec07-d85e-4bf9-9f3b-a14cdcbc340c": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "33c9ec07-d85e-4bf9-9f3b-a14cdcbc340c",
-      "parent": "193956ac-0995-4e88-9680-77839ef61bcd",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "30ae0bd3-a899-479d-8b63-bff7b16a9ea2": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "30ae0bd3-a899-479d-8b63-bff7b16a9ea2",
-      "parent": "5aee3488-71d5-4a35-867d-159e42819723",
-      "children": [],
-      "position": [
-        0.6511260896669508,
-        3.140765462984575,
-        -1.783012018124821
-      ],
-      "rotation": [
-        -152.4788924380267,
-        59.64474218242963,
-        -164.5786766479491
-      ],
-      "scale": [
-        0.6869745352848963,
-        1,
-        1.5199223993129856
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "d126988b-9bc1-4193-8d98-d228ca42f90e": {
-      "name": "SM_ENV_snowpile_tree_03",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "d126988b-9bc1-4193-8d98-d228ca42f90e",
-      "parent": "5aee3488-71d5-4a35-867d-159e42819723",
-      "children": [],
-      "position": [
-        0.7620582387020534,
-        3.3263346580221977,
-        -1.1591649510147874
-      ],
-      "rotation": [
-        -153.6475563388804,
-        37.08150526127167,
-        -161.25670419361566
-      ],
-      "scale": [
-        1.600947034742644,
-        1,
-        0.5175673613113233
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35933844,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "8cfd5c01-8693-4f51-8175-31415ec59cb6": {
-      "name": "Dust",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "parent": "a84eb64b-ae5c-49f9-bb7c-a0746aae0286",
-      "children": [
-        "23b7e98a-2260-4974-ba87-42027eee7453",
-        "c11b9e60-5f46-4a2b-9f1f-16d72ed35c4c",
-        "0f4bfb9a-f3d7-4788-beb9-665ed796e396",
-        "1e369736-cd31-4299-82aa-c74522268b3d",
-        "cb0609a5-0b69-433f-b74d-005d13b72c0d",
-        "0dad5f34-1fd5-4206-8c3b-05ac4f84c6bd",
-        "b2897a64-ae01-4799-98d1-b41f052e6015",
-        "45fcb4a5-c6c2-411a-911c-90358dae1c28"
-      ],
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {}
-    },
-    "23b7e98a-2260-4974-ba87-42027eee7453": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "23b7e98a-2260-4974-ba87-42027eee7453",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        46.07682800292969,
-        14.286816596984863,
-        -7.229751735766272
-      ],
-      "rotation": [
-        0,
-        -44.29747842096115,
-        0
-      ],
-      "scale": [
-        8.07671218064444,
-        8.07671218064444,
-        9.372869705450752
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "c11b9e60-5f46-4a2b-9f1f-16d72ed35c4c": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "c11b9e60-5f46-4a2b-9f1f-16d72ed35c4c",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        41.476297697802025,
-        14.286816596984863,
-        -18.19587782723614
-      ],
-      "rotation": [
-        0,
-        -12.214098237399307,
-        0
-      ],
-      "scale": [
-        10.301706077510671,
-        10.301706077510671,
-        11.954932483511307
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "0f4bfb9a-f3d7-4788-beb9-665ed796e396": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "0f4bfb9a-f3d7-4788-beb9-665ed796e396",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        1.8653590485326648,
-        12.065163608842969,
-        -42.92584333637305
-      ],
-      "rotation": [
-        0,
-        28.616333039763926,
-        0
-      ],
-      "scale": [
-        10.301706077510671,
-        10.301706077510671,
-        11.954932483511307
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "1e369736-cd31-4299-82aa-c74522268b3d": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "1e369736-cd31-4299-82aa-c74522268b3d",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        19.959217049300577,
-        12.416115760803223,
-        -57.305908203125
-      ],
-      "rotation": [
-        0,
-        28.616333039763926,
-        0
-      ],
-      "scale": [
-        10.301706077510671,
-        10.301706077510671,
-        11.954932483511307
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "cb0609a5-0b69-433f-b74d-005d13b72c0d": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "cb0609a5-0b69-433f-b74d-005d13b72c0d",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        35.17057504288379,
-        14.300431251525879,
-        -50.15907287597656
-      ],
-      "rotation": [
-        0,
-        6.172481405956178,
-        0
-      ],
-      "scale": [
-        14.022486576252424,
-        14.022486576252424,
-        16.272826948150495
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "0dad5f34-1fd5-4206-8c3b-05ac4f84c6bd": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "0dad5f34-1fd5-4206-8c3b-05ac4f84c6bd",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        17.67946434020996,
-        10.266449928283691,
-        40.20794613594682
-      ],
-      "rotation": [
-        180,
-        -24.611832192996772,
-        180
-      ],
-      "scale": [
-        17.881497861207233,
-        17.881497861207233,
-        20.751135591168094
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "b2897a64-ae01-4799-98d1-b41f052e6015": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "b2897a64-ae01-4799-98d1-b41f052e6015",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        -60.99934005737305,
-        14.327866554260254,
-        21.314534334218347
-      ],
-      "rotation": [
-        180,
-        -24.611832192996772,
-        180
-      ],
-      "scale": [
-        17.881497861207233,
-        17.881497861207233,
-        20.751135591168094
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "45fcb4a5-c6c2-411a-911c-90358dae1c28": {
-      "name": "Plane",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "45fcb4a5-c6c2-411a-911c-90358dae1c28",
-      "parent": "8cfd5c01-8693-4f51-8175-31415ec59cb6",
-      "children": [],
-      "position": [
-        -50.13339172773286,
-        14.327866554260254,
-        32.318870544433594
-      ],
-      "rotation": [
-        180,
-        49.91339399031511,
-        180
-      ],
-      "scale": [
-        14.299453291007891,
-        14.299453291007891,
-        16.59424151290011
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "plane",
-          "asset": null,
-          "materialAsset": 40062485,
-          "castShadows": false,
-          "castShadowsLightmap": false,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": 100004
-        }
-      }
-    },
-    "780f4f9e-1f2c-4be0-8f74-1059335ca318": {
-      "name": "Breakable",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-      "parent": "a84eb64b-ae5c-49f9-bb7c-a0746aae0286",
-      "children": [
-        "7405b447-2d53-4a21-b0d1-c7a35c4481aa",
-        "8f554e25-b31d-45df-bc29-ff7dd018089e",
-        "348b4146-02a3-4f0a-ae26-e313a62c095a",
-        "8a0d1409-d142-4a41-a43a-e990beb41d31",
-        "be3ac413-0f2c-4036-995c-ea11614e9789"
-      ],
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {}
-    },
-    "7405b447-2d53-4a21-b0d1-c7a35c4481aa": {
-      "name": "SM_ENV_icicle_04",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "7405b447-2d53-4a21-b0d1-c7a35c4481aa",
-      "parent": "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-      "children": [
-        "55eaddf8-18e2-427a-915c-84c1074233a4"
-      ],
-      "position": [
-        -43.157711029052734,
-        24.101974487304688,
-        18.34836775428549
-      ],
-      "rotation": [
-        174.98013186743648,
-        60.22049742456773,
-        175.31317271890302
-      ],
-      "scale": [
-        3.494362097778025,
-        3.494362097778025,
-        3.494362097778025
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35934016,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "55eaddf8-18e2-427a-915c-84c1074233a4": {
-      "name": "Collision",
-      "tags": [
-        "Rigidbody",
-        "Ice"
-      ],
-      "enabled": true,
-      "resource_id": "55eaddf8-18e2-427a-915c-84c1074233a4",
-      "parent": "7405b447-2d53-4a21-b0d1-c7a35c4481aa",
-      "children": [],
-      "position": [
-        -0.042634297952190536,
-        -0.6270684173213188,
-        -0.01739252367996258
-      ],
-      "rotation": [
-        0.22692517375238358,
-        -5.617027885677412,
-        0.08314034046914927
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {
-        "collision": {
-          "enabled": true,
-          "type": "box",
-          "halfExtents": [
-            1.508,
-            1.421,
-            0.441
-          ],
-          "radius": 1,
-          "axis": 1,
-          "height": 3.2,
-          "asset": null
-        },
-        "rigidbody": {
-          "enabled": true,
-          "type": "static",
-          "mass": 1,
-          "linearDamping": 0,
-          "angularDamping": 0,
-          "linearFactor": [
-            1,
-            1,
-            1
-          ],
-          "angularFactor": [
-            1,
-            1,
-            1
-          ],
-          "friction": 0.5,
-          "restitution": 0.5
-        }
-      }
-    },
-    "8f554e25-b31d-45df-bc29-ff7dd018089e": {
-      "name": "SM_ENV_icicle_04",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "8f554e25-b31d-45df-bc29-ff7dd018089e",
-      "parent": "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-      "children": [
-        "c26f1446-3fd6-4a57-93ad-2a1398d6f9dc"
-      ],
-      "position": [
-        -12.464747122830055,
-        15.888415336608887,
-        -6.3356523513793945
-      ],
-      "rotation": [
-        174.98013186743648,
-        60.22049742456773,
-        175.31317271890302
-      ],
-      "scale": [
-        3.494362097778025,
-        3.494362097778025,
-        3.494362097778025
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35934016,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "c26f1446-3fd6-4a57-93ad-2a1398d6f9dc": {
-      "name": "Collision",
-      "tags": [
-        "Rigidbody",
-        "Ice"
-      ],
-      "enabled": true,
-      "resource_id": "c26f1446-3fd6-4a57-93ad-2a1398d6f9dc",
-      "parent": "8f554e25-b31d-45df-bc29-ff7dd018089e",
-      "children": [],
-      "position": [
-        -0.042634297952190536,
-        -0.6270684173213188,
-        -0.01739252367996258
-      ],
-      "rotation": [
-        0.22692517375238358,
-        -5.617027885677412,
-        0.08314034046914927
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {
-        "collision": {
-          "enabled": true,
-          "type": "box",
-          "halfExtents": [
-            1.508,
-            1.421,
-            0.441
-          ],
-          "radius": 1,
-          "axis": 1,
-          "height": 3.2,
-          "asset": null
-        },
-        "rigidbody": {
-          "enabled": true,
-          "type": "static",
-          "mass": 1,
-          "linearDamping": 0,
-          "angularDamping": 0,
-          "linearFactor": [
-            1,
-            1,
-            1
-          ],
-          "angularFactor": [
-            1,
-            1,
-            1
-          ],
-          "friction": 0.5,
-          "restitution": 0.5
-        }
-      }
-    },
-    "348b4146-02a3-4f0a-ae26-e313a62c095a": {
-      "name": "SM_ENV_icicle_04",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "348b4146-02a3-4f0a-ae26-e313a62c095a",
-      "parent": "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-      "children": [
-        "9a2a9b97-aebf-433f-a266-e68d5a974dd1"
-      ],
-      "position": [
-        43.793128967285156,
-        24.175833803307448,
-        -6.3356523513793945
-      ],
-      "rotation": [
-        174.98013186743648,
-        60.22049742456773,
-        175.31317271890302
-      ],
-      "scale": [
-        3.494362097778025,
-        3.494362097778025,
-        3.494362097778025
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35934016,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "9a2a9b97-aebf-433f-a266-e68d5a974dd1": {
-      "name": "Collision",
-      "tags": [
-        "Rigidbody",
-        "Ice"
-      ],
-      "enabled": true,
-      "resource_id": "9a2a9b97-aebf-433f-a266-e68d5a974dd1",
-      "parent": "348b4146-02a3-4f0a-ae26-e313a62c095a",
-      "children": [],
-      "position": [
-        -0.042634297952190536,
-        -0.6270684173213188,
-        -0.01739252367996258
-      ],
-      "rotation": [
-        0.22692517375238358,
-        -5.617027885677412,
-        0.08314034046914927
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {
-        "collision": {
-          "enabled": true,
-          "type": "box",
-          "halfExtents": [
-            1.508,
-            1.421,
-            0.441
-          ],
-          "radius": 1,
-          "axis": 1,
-          "height": 3.2,
-          "asset": null
-        },
-        "rigidbody": {
-          "enabled": true,
-          "type": "static",
-          "mass": 1,
-          "linearDamping": 0,
-          "angularDamping": 0,
-          "linearFactor": [
-            1,
-            1,
-            1
-          ],
-          "angularFactor": [
-            1,
-            1,
-            1
-          ],
-          "friction": 0.5,
-          "restitution": 0.5
-        }
-      }
-    },
-    "8a0d1409-d142-4a41-a43a-e990beb41d31": {
-      "name": "SM_ENV_icicle_04",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "8a0d1409-d142-4a41-a43a-e990beb41d31",
-      "parent": "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-      "children": [
-        "3a0e0048-7f82-4891-89ca-ba7fdf9dc724"
-      ],
-      "position": [
-        30.626193024179287,
-        11.844657897949219,
-        23.221982955932617
-      ],
-      "rotation": [
-        174.98013186743648,
-        60.22049742456773,
-        175.31317271890302
-      ],
-      "scale": [
-        3.494362097778025,
-        3.494362097778025,
-        3.494362097778025
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35934016,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "3a0e0048-7f82-4891-89ca-ba7fdf9dc724": {
-      "name": "Collision",
-      "tags": [
-        "Rigidbody",
-        "Ice"
-      ],
-      "enabled": true,
-      "resource_id": "3a0e0048-7f82-4891-89ca-ba7fdf9dc724",
-      "parent": "8a0d1409-d142-4a41-a43a-e990beb41d31",
-      "children": [],
-      "position": [
-        -0.042634297952190536,
-        -0.6270684173213188,
-        -0.01739252367996258
-      ],
-      "rotation": [
-        0.22692517375238358,
-        -5.617027885677412,
-        0.08314034046914927
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {
-        "collision": {
-          "enabled": true,
-          "type": "box",
-          "halfExtents": [
-            1.508,
-            1.421,
-            0.441
-          ],
-          "radius": 1,
-          "axis": 1,
-          "height": 3.2,
-          "asset": null
-        },
-        "rigidbody": {
-          "enabled": true,
-          "type": "static",
-          "mass": 1,
-          "linearDamping": 0,
-          "angularDamping": 0,
-          "linearFactor": [
-            1,
-            1,
-            1
-          ],
-          "angularFactor": [
-            1,
-            1,
-            1
-          ],
-          "friction": 0.5,
-          "restitution": 0.5
-        }
-      }
-    },
-    "be3ac413-0f2c-4036-995c-ea11614e9789": {
-      "name": "SM_ENV_icicle_04",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "be3ac413-0f2c-4036-995c-ea11614e9789",
-      "parent": "780f4f9e-1f2c-4be0-8f74-1059335ca318",
-      "children": [
-        "cd64c3c6-d480-4328-9db3-5b1083babb21"
-      ],
-      "position": [
-        -51.0316162109375,
-        24.00043296813965,
-        -94.79580142645244
-      ],
-      "rotation": [
-        178.84202669656136,
-        5.113529105205469,
-        177.66488154028931
-      ],
-      "scale": [
-        3.494362097778025,
-        3.494362097778025,
-        3.494362097778025
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 35934016,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        }
-      }
-    },
-    "cd64c3c6-d480-4328-9db3-5b1083babb21": {
-      "name": "Collision",
-      "tags": [
-        "Rigidbody",
-        "Ice"
-      ],
-      "enabled": true,
-      "resource_id": "cd64c3c6-d480-4328-9db3-5b1083babb21",
-      "parent": "be3ac413-0f2c-4036-995c-ea11614e9789",
-      "children": [],
-      "position": [
-        -0.042634297952190536,
-        -0.6270684173213188,
-        -0.01739252367996258
-      ],
-      "rotation": [
-        0.22692517375238358,
-        -5.617027885677412,
-        0.08314034046914927
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {
-        "collision": {
-          "enabled": true,
-          "type": "box",
-          "halfExtents": [
-            1.508,
-            1.421,
-            0.441
-          ],
-          "radius": 1,
-          "axis": 1,
-          "height": 3.2,
-          "asset": null
-        },
-        "rigidbody": {
-          "enabled": true,
-          "type": "static",
-          "mass": 1,
-          "linearDamping": 0,
-          "angularDamping": 0,
-          "linearFactor": [
-            1,
-            1,
-            1
-          ],
-          "angularFactor": [
-            1,
-            1,
-            1
-          ],
-          "friction": 0.5,
-          "restitution": 0.5
-        }
-      }
-    },
-    "0070934a-e377-410c-a58a-49f31a144208": {
-      "name": "Special",
-      "tags": [],
-      "enabled": true,
-      "resource_id": "0070934a-e377-410c-a58a-49f31a144208",
-      "parent": "a84eb64b-ae5c-49f9-bb7c-a0746aae0286",
-      "children": [
-        "e3c41ddc-9191-4147-b7de-cf50d690bd50"
-      ],
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "components": {}
-    },
-    "e3c41ddc-9191-4147-b7de-cf50d690bd50": {
-      "name": "xmas_tree_03",
-      "tags": [
-        "Wood"
-      ],
-      "enabled": true,
-      "resource_id": "e3c41ddc-9191-4147-b7de-cf50d690bd50",
-      "parent": "0070934a-e377-410c-a58a-49f31a144208",
-      "children": [],
-      "position": [
-        8.155127141923927,
-        4.21524715423584,
-        4.558727741241455
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        2.7755809016250566,
-        2.7755809016250566,
-        2.7755809016250566
-      ],
-      "components": {
-        "model": {
-          "enabled": true,
-          "type": "asset",
-          "asset": 40035203,
-          "materialAsset": null,
-          "castShadows": true,
-          "castShadowsLightmap": true,
-          "receiveShadows": true,
-          "lightmapped": false,
-          "lightmapSizeMultiplier": 1,
-          "castShadowsLightMap": true,
-          "lightMapped": false,
-          "lightMapSizeMultiplier": 1,
-          "isStatic": false,
-          "layers": [
-            0
-          ],
-          "batchGroupId": null
-        },
-        "collision": {
-          "enabled": true,
-          "type": "cylinder",
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ],
-          "radius": 0.7,
-          "axis": 1,
-          "height": 20,
-          "asset": null
-        },
-        "rigidbody": {
-          "enabled": true,
-          "type": "static",
-          "mass": 1,
-          "linearDamping": 0,
-          "angularDamping": 0,
-          "linearFactor": [
-            1,
-            1,
-            1
-          ],
-          "angularFactor": [
-            1,
-            1,
-            1
-          ],
-          "friction": 0.5,
-          "restitution": 0.5
         }
       }
     }
